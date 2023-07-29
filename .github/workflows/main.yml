@@ -20,4 +20,4 @@ jobs:
         aws-region: us-est-1
 
     - name: Deploystatic site to S3 bucket
-      run: aws s3 sync . s3://s3bucketname --delete
+      run: aws s3 sync . s3://nilkanth-portfolio --delete
